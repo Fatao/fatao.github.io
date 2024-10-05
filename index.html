@@ -3,108 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Fatao Abdulrahman - Cyber Security Enthusiast</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatao's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #E0E0E0;
+        }
+        header {
+            background-color: #1F1F1F;
+            color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #1F1F1F;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #E0E0E0;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: #1F1F1F;
+        }
+        footer {
+            background-color: #1F1F1F;
+            color: #E0E0E0;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+            background-color: #282828;
+            color: #E0E0E0;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <!-- Logo/Name and Navigation Menu -->
-            <div class="logo">
-                <h1>Abdul Fatao Abdulrahman</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="section-links">
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#blog">Blog</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <!-- Introduction and Call-to-Action (CTA) -->
-            <h2>Welcome to My Portfolio</h2>
-            <p>A passionate cyber security professional eager to make an impact.</p>
-            <a href="#portfolio" class="btn">View Portfolio</a>
-        </div>
-    </section>
+<header>
+    <h1>Welcome to Fatao's Website</h1>
+    <p>Your go-to resource for Technology, Software Engineering, and Cybersecurity insights</p>
+</header>
 
-    <!-- About Me Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <img src="[URL to your picture]" alt="Abdul Fatao Abdulrahman" class="bio-image">
-            <p>I'm a beginner in the cyber security field, eager to learn and grow. I'm currently studying [related course or program] and exploring the fundamentals of security, including networking, operating systems, and threat analysis. I'm fascinated by the constantly evolving landscape of cyber security and passionate about developing my skills to make a positive impact.</p>
-            <!-- CV Download Link -->
-            <div class="resume-section">
-                <a href="[URL to your CV]" download="Abdul_Fatao_Abdulrahman_CV.pdf">Download CV</a>
-            </div>
-        </div>
-    </section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <ul>
-                <li><a href="[URL to IT home lab]" target="_blank">IT Home Lab</a></li>
-                <li><a href="[URL to Active Directory Lab]" target="_blank">Active Directory Lab</a></li>
-                <li><a href="[URL to Network analysis malware Lab]" target="_blank">Network Analysis Malware Lab</a></li>
-            </ul>
-        </div>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello, I'm Fatao, a dedicated software engineering student with a passion for technology, IT, and cybersecurity. My goal is to attract potential employers, collaborate with peers, and share my knowledge with the tech community.</p>
+    <h3>Skills</h3>
+    <ul>
+        <li>Technical Skills: Cybersecurity, Web Application Security, Software Development, Networking</li>
+        <li>Languages: English, French, Russian</li>
+        <li>Soft Skills: Problem-solving, Communication, Adaptability, Teamwork</li>
+    </ul>
+    <h3>Experience</h3>
+    <p>Currently pursuing a degree in Software Engineering, with certifications in Cybersecurity and active participation in organizations such as OWASP, ISC2, and TryHackMe.</p>
+</section>
 
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-        <div class="container">
-            <h2>Blog</h2>
-            <p>[Links to your blog posts or articles]</p>
-        </div>
-    </section>
+<section id="resume">
+    <h2>My Resume</h2>
+    <p><a href="#" style="color: #4CAF50;">Download Resume</a></p>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out for any inquiries or opportunities. I am always open to discussing cyber security and related technologies.</p>
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/abdul-fatao-abdulrahman-8ab609194" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn"></a>
-                <a href="[your Twitter handle]" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter"></a>
-                <a href="[your GitHub profile]" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub"></a>
-                <!-- Add more social media icons/links as needed -->
-            </div>
-        </div>
-    </section>
+<section id="blog">
+    <h2>My Blog</h2>
+    <p>Visit my blog to learn more about my thoughts on Technology, IT, software engineering, and cybersecurity. <a href="#" style="color: #4CAF50;">Read the Blog</a></p>
+</section>
 
-    <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <!-- Copyright Information and Navigation Links -->
-            <p>&copy; 2024 Abdul Fatao Abdulrahman. All rights reserved.</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+<section id="projects">
+    <h2>Projects</h2>
+    <div>
+        <h3>Project 1: Web App Security Testing</h3>
+        <p>Goal: To identify and fix security vulnerabilities in web applications using tools like OWASP ZAP.</p>
+        <img src="project1.png" alt="Web App Security Testing Screenshot" style="width: 100%; border-radius: 8px;">
+        <p>Role: Conducted penetration testing, report generation, and implemented security patches.</p>
+    </div>
+    <div>
+        <h3>Project 2: Secure Network Configuration</h3>
+        <p>Goal: Design and implement a secure network infrastructure for a small business.</p>
+        <img src="project2.png" alt="Network Configuration Screenshot" style="width: 100%; border-radius: 8px;">
+        <p>Role: Configured firewalls, intrusion detection systems, and ensured compliance with security policies.</p>
+    </div>
+</section>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+<section id="services">
+    <h2>Services</h2>
+    <p>I offer consulting services in cybersecurity, web application security testing, and secure software development. With my extensive knowledge and hands-on experience, I provide tailored solutions to protect your digital assets and ensure safe and robust software systems.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
+    <p>Email: fatao@example.com</p>
+</section>
+
+<footer>
+    <p>Connect with me on <a href="#" style="color: #4CAF50;">LinkedIn</a>, <a href="#" style="color: #4CAF50;">GitHub</a>, <a href="#" style="color: #4CAF50;">Twitter</a>, <a href="#" style="color: #4CAF50;">VK</a>, <a href="#" style="color: #4CAF50;">Instagram</a></p>
+    <p>&copy; 2024 Fatao's Personal Website</p>
+</footer>
+
 </body>
 </html>
